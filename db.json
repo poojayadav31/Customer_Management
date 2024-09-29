@@ -1,0 +1,16 @@
+{
+  "customers": [
+    {
+      "id": "40bf",
+      "name": "Pooja ",
+      "email": "pooja@gmail.com",
+      "address": "Kota, Raipur"
+    },
+    {
+      "id": "c9d8",
+      "name": "Pooja Rao",
+      "email": "poojarao@gmail.com",
+      "address": "Raipur"
+    }
+  ]
+}
