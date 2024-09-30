@@ -4,6 +4,7 @@ import CustomerManagement from './pages/CustomerManagement';
 import CustomerStats from './pages/CustomerStats';
 import CustomerProvider from './context/CustomerContext';
 import Sidebar from './components/Sidebar';
+import Stats from './components/Stats';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
           <Sidebar />
           <div className="w-full">
             <Routes>
+              <Route path="/Customer_Management" element={<Stats />} />
               <Route path="/management" element={<CustomerManagement />} />
               <Route path="/stats" element={<CustomerStats />} />
             </Routes>
